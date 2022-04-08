@@ -1,0 +1,12 @@
+void main() {
+  double valor = 5;
+  double resultado = 0;
+  
+      for(int i = 1; i <= 10; i++) {
+        
+      resultado = valor * i;      
+      
+      print ("$valor x $i = $resultado");
+        
+      }       
+}

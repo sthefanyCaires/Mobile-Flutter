@@ -1,0 +1,33 @@
+void main() {
+  double a = 30;
+  double v0 = 5;
+  double t = 10;
+    
+  double V = (v0 + a * t);
+  
+  if (V <= 40){
+    
+     print("A velocidade é $V. Veículo muito lento.");
+    
+  }
+  else if (V > 40 && V <= 60) {
+  
+     print("A velocidade é $V. Velocidade permitida.");
+    
+  }
+  else if (V > 60 && V <= 80) {
+  
+     print("A velocidade é $V. Velocidade de cruzeiro.");
+    
+  }
+  else if (V > 80 && V <= 120) {
+  
+     print("A velocidade é $V. Veículo rápido.");
+    
+  }
+  else if (V > 120) {
+  
+     print("A velocidade é $V. Veículo muito rápido.");
+    
+  }
+}

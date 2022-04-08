@@ -1,0 +1,29 @@
+void main() {
+  double vl1 = 52;
+  double vl2 = 30;
+  double vl3 = 23;
+  
+  if (vl1 + vl2 > vl3 && vl2 + vl3 > vl1 && vl3 + vl1 > vl2) {
+    
+    if(vl1 != vl2 && vl2 != vl3 && vl3 != vl1){
+      
+      print("Esses valores formam um triângulo escaleno");
+      
+    }
+    else if (vl1 == vl2 && vl2 == vl3) {
+      
+      print("Esses valores formam um triângulo equilátero");
+      
+    }
+    else {
+      
+      print("Esses valores formam um triângulo isósceles");
+    }
+  }
+  else {
+    
+    print("Esses valores não formam um triângulo");
+      
+  }
+  
+}

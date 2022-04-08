@@ -1,0 +1,12 @@
+void main() {
+  double p1 = 23;
+  double p2 = 11;
+  double p3 = 6;
+  double p4 = 19;
+  double p5 = 2;
+  double pag = 150;
+  
+  double troco = pag - (p1 + p2 + p3 + p4 + p5);
+ 
+  print("O troco será de $troco reais");
+}

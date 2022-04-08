@@ -1,0 +1,21 @@
+void main() {
+  double valor = 5;
+  int valA = 15;
+  int valB = 30;
+  double resultado = 0;
+  
+  if(valB > valA) {
+      for(int i = valB; i >= valA; i--) {
+        
+      resultado = valor * i;    
+      
+      print ("$valor x $i = $resultado");
+        
+      }
+    }
+  else {
+    
+    print("O valor de B deve ser maior que o valor de A");
+    
+  }
+}

@@ -1,0 +1,5 @@
+void main() {
+  var valores = [42, 45, 21, 23, 62, 12, 65, 41, 25, 15];
+  
+  print(valores.reversed);
+}

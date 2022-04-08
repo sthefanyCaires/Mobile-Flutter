@@ -1,0 +1,42 @@
+void main() {
+  double peso = 72;
+  double altura = 1.65;
+  String sexo = "M";
+    
+  double imc = peso / (altura * altura);
+  
+  if (sexo == "F"){
+    if (imc < 19) {
+    
+     print("Abaixo do peso");
+    
+    }
+    else if (imc > 19 && imc < 24) {
+  
+     print("Peso ideal");
+    
+    }
+    else if (imc > 24) {
+  
+     print("Acima do peso");
+    
+    }
+  }
+  else {   
+    if(imc < 20) {
+      
+      print("Abaixo do peso");
+      
+    }
+    else if (imc > 20 && imc < 25) {
+      
+      print("Peso ideal");
+      
+    }
+    else if (imc > 20) {
+      
+      print("Acima do peso");
+        
+    }
+  }
+}

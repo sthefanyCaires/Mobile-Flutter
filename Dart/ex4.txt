@@ -1,0 +1,8 @@
+void main() {
+  double cotdolar = 5.05;
+  double qtddolar = 56;
+  
+  double reais = cotdolar * qtddolar;
+ 
+  print("O valor em reais é $reais");
+}

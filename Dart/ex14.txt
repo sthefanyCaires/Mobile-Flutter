@@ -1,0 +1,22 @@
+void main() {
+  int valor1 = 1;
+  int valor2 = 1;
+  int valor3 = 1;
+  int valor4;
+  
+  print(valor1);
+  print(valor2);
+  print(valor3);
+  
+  for(int i = 2; i <= 18; i++){
+    
+   valor4 = valor1 + valor2 + valor3;
+    
+    print('$valor4');
+    
+    valor1 = valor2;
+    valor2 = valor3;
+    valor3 = valor4;
+    
+  }
+}

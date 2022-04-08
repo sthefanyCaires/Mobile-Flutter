@@ -1,0 +1,17 @@
+void main() {
+  double base = 25;
+  double altura = 2;
+ 
+  double area = base * altura;
+ 
+  if (area > 100) {
+    
+    print("Terreno Grande");
+    
+  }
+  else {
+  
+    print("Terreno Pequeno");
+    
+  }
+}
